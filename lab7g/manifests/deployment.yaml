@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+        - name: web
+          image: image-registry.openshift-image-registry.svc:5000/lab7g/hello@sha256:4e7e0c0f458d124541acda04431b9afc5ba57c4b9540f878cef1c0efb8879ef2
+          ports:
+            - containerPort: 8080
