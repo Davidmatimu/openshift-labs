@@ -1,0 +1,15 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: db-creds
+  namespace: lab8
+spec:
+  encryptedData:
+    password: AgC4lNi13Ob7tHTzPCn7w2kHrFhoAAlnEHIn0AorI/G82XrWptyWBg6oaJp7SGVgTgJzswyb977OhLNJzgMRKSmrVHQnH/SfDRkaTR06RdkOqtKuuB1qcIwGuNkrOfE9QeD7kS3Eo7C0jjfajgG0VQOGeVqaYd+LDsTSb4WgAEQC2y3TIlmI2y8fx1+iAPxFEjjHVI0/0B25NWBtOJV0M55YbH8A4l10h0LeMFsmd+o94wEeHv2N2bervw95I2Dl42fc6bdUwPXCda3KV7Hfr5vg0r0Zi1muyinHtyVgHaaOdB0T4vzEf/1dWSdmrR1vSoa15da0RapvjT8K5rgjBi8U5HK5TWiJzuwhtAMowaaWa0CKM9YnaRulI+B0ToNahw8i0mxWcU1aX9ht+MpgRGy5T6PyeKJB55+h/O6lEnsBpydup0p3XnpzdEg+WGykK08mKTU07yRNVkSCdUEBmerwcZo3a4gbBm3eFvNWrb+pVEMwqAU1I7oqPSDck0umzkEyUM5lU64gnfyyReyrS8XYAVWgq1E1fdubxHmUIrDGAchIS1xEZPjA8R+vJoL9NL5YAVrpM/xtJAKFPjyKgl3cxN4FL7KvvE+wL+LgC1CL1bmj4hx/G5L9vCDynlqU6rDfcUYJf7Dw2uXpJOzFlOepa6UXGHSAGviaa+UsGujOzV2j+pa5Tsir7f9V1udpk7ZtaSqAC7qEr6t5jGc=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: db-creds
+      namespace: lab8
